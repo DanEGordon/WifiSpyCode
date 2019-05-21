@@ -15,4 +15,5 @@ like a "fast enemy" which moves faster than the rest, and a "strong enemy"  Whic
 PM_V2 determines player movement, and moves the avatar around the screen accordingly.
 
 Enemies are moving towards the core, and the core controller tracks core health.  
-If enemies touch the core too many times, the player loses.
+If enemies touch the core too many times, the player loses.  Displays an on screen
+health bar to track that progress
