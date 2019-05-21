@@ -9,7 +9,8 @@ the central "core".  If the core takes too much damage, the player loses
 
 Spawner0 is one of the individual spawner scripts that determine when and how enemies spawn.  
 It also tracks how many enemies are in the current lane, so enemies in the back don't get 
-destroyed when enemies in the front get hit.  Spawns different variations with different avatars, 
+destroyed when enemies in the front get hit.  Each Lane has its own spawner code, determining its 
+unique spawning behavior and tracking its own lane. Spawns different variations with different avatars, 
 like a "fast enemy" which moves faster than the rest, and a "strong enemy"  Which has more health
 
 PM_V2 determines player movement, and moves the avatar around the screen accordingly.
